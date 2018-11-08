@@ -22,6 +22,6 @@ app.get('/about', (req, res) => {
     res.render('about.hbs')
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Escucahdno peticiones en el puerto ${port}`)
 })
